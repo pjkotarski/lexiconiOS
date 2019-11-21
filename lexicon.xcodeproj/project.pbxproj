@@ -10,12 +10,16 @@
 		A2640F962387275D00FC7803 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2640F952387275D00FC7803 /* AppDelegate.swift */; };
 		A2640F982387275D00FC7803 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2640F972387275D00FC7803 /* SceneDelegate.swift */; };
 		A2640F9A2387275D00FC7803 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2640F992387275D00FC7803 /* ViewController.swift */; };
-		A2640F9D2387275D00FC7803 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2640F9B2387275D00FC7803 /* Main.storyboard */; };
 		A2640FA02387275D00FC7803 /* lexicon.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A2640F9E2387275D00FC7803 /* lexicon.xcdatamodeld */; };
 		A2640FA22387275E00FC7803 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2640FA12387275E00FC7803 /* Assets.xcassets */; };
-		A2640FA52387275E00FC7803 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2640FA32387275E00FC7803 /* LaunchScreen.storyboard */; };
 		A2640FB02387275E00FC7803 /* lexiconTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2640FAF2387275E00FC7803 /* lexiconTests.swift */; };
 		A2640FBB2387275E00FC7803 /* lexiconUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2640FBA2387275E00FC7803 /* lexiconUITests.swift */; };
+		A2640FD0238729F300FC7803 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2640FCF238729F300FC7803 /* MainTabBarController.swift */; };
+		A2640FD223872A0800FC7803 /* MainNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2640FD123872A0800FC7803 /* MainNavController.swift */; };
+		A2640FD423872A1600FC7803 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2640FD323872A1600FC7803 /* HomeViewController.swift */; };
+		A2640FD623872A1E00FC7803 /* LearnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2640FD523872A1E00FC7803 /* LearnViewController.swift */; };
+		A2640FD823872A2800FC7803 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2640FD723872A2800FC7803 /* SearchViewController.swift */; };
+		A2640FDA23872A3000FC7803 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2640FD923872A3000FC7803 /* AccountViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,10 +44,8 @@
 		A2640F952387275D00FC7803 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2640F972387275D00FC7803 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A2640F992387275D00FC7803 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A2640F9C2387275D00FC7803 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A2640F9F2387275D00FC7803 /* lexicon.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = lexicon.xcdatamodel; sourceTree = "<group>"; };
 		A2640FA12387275E00FC7803 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A2640FA42387275E00FC7803 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A2640FA62387275E00FC7803 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A2640FAB2387275E00FC7803 /* lexiconTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lexiconTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2640FAF2387275E00FC7803 /* lexiconTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lexiconTests.swift; sourceTree = "<group>"; };
@@ -51,6 +53,12 @@
 		A2640FB62387275E00FC7803 /* lexiconUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lexiconUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2640FBA2387275E00FC7803 /* lexiconUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lexiconUITests.swift; sourceTree = "<group>"; };
 		A2640FBC2387275E00FC7803 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2640FCF238729F300FC7803 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		A2640FD123872A0800FC7803 /* MainNavController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavController.swift; sourceTree = "<group>"; };
+		A2640FD323872A1600FC7803 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A2640FD523872A1E00FC7803 /* LearnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnViewController.swift; sourceTree = "<group>"; };
+		A2640FD723872A2800FC7803 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		A2640FD923872A3000FC7803 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,12 +109,17 @@
 		A2640F942387275D00FC7803 /* lexicon */ = {
 			isa = PBXGroup;
 			children = (
+				A2640FCE238729D900FC7803 /* Home */,
+				A2640FCD238729D500FC7803 /* Learn */,
+				A2640FCC238729CD00FC7803 /* Search */,
+				A2640FCB238729C200FC7803 /* Account */,
+				A2640FCA238729BE00FC7803 /* Shared */,
+				A2640FC9238729A700FC7803 /* MainNavBar */,
+				A2640FC82387299D00FC7803 /* MainTabBar */,
 				A2640F952387275D00FC7803 /* AppDelegate.swift */,
 				A2640F972387275D00FC7803 /* SceneDelegate.swift */,
 				A2640F992387275D00FC7803 /* ViewController.swift */,
-				A2640F9B2387275D00FC7803 /* Main.storyboard */,
 				A2640FA12387275E00FC7803 /* Assets.xcassets */,
-				A2640FA32387275E00FC7803 /* LaunchScreen.storyboard */,
 				A2640FA62387275E00FC7803 /* Info.plist */,
 				A2640F9E2387275D00FC7803 /* lexicon.xcdatamodeld */,
 			);
@@ -129,6 +142,61 @@
 				A2640FBC2387275E00FC7803 /* Info.plist */,
 			);
 			path = lexiconUITests;
+			sourceTree = "<group>";
+		};
+		A2640FC82387299D00FC7803 /* MainTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				A2640FCF238729F300FC7803 /* MainTabBarController.swift */,
+			);
+			path = MainTabBar;
+			sourceTree = "<group>";
+		};
+		A2640FC9238729A700FC7803 /* MainNavBar */ = {
+			isa = PBXGroup;
+			children = (
+				A2640FD123872A0800FC7803 /* MainNavController.swift */,
+			);
+			path = MainNavBar;
+			sourceTree = "<group>";
+		};
+		A2640FCA238729BE00FC7803 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		A2640FCB238729C200FC7803 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				A2640FD923872A3000FC7803 /* AccountViewController.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		A2640FCC238729CD00FC7803 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				A2640FD723872A2800FC7803 /* SearchViewController.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		A2640FCD238729D500FC7803 /* Learn */ = {
+			isa = PBXGroup;
+			children = (
+				A2640FD523872A1E00FC7803 /* LearnViewController.swift */,
+			);
+			path = Learn;
+			sourceTree = "<group>";
+		};
+		A2640FCE238729D900FC7803 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A2640FD323872A1600FC7803 /* HomeViewController.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,9 +303,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2640FA52387275E00FC7803 /* LaunchScreen.storyboard in Resources */,
 				A2640FA22387275E00FC7803 /* Assets.xcassets in Resources */,
-				A2640F9D2387275D00FC7803 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,7 +330,13 @@
 			files = (
 				A2640F9A2387275D00FC7803 /* ViewController.swift in Sources */,
 				A2640F962387275D00FC7803 /* AppDelegate.swift in Sources */,
+				A2640FD0238729F300FC7803 /* MainTabBarController.swift in Sources */,
+				A2640FD823872A2800FC7803 /* SearchViewController.swift in Sources */,
 				A2640FA02387275D00FC7803 /* lexicon.xcdatamodeld in Sources */,
+				A2640FD223872A0800FC7803 /* MainNavController.swift in Sources */,
+				A2640FDA23872A3000FC7803 /* AccountViewController.swift in Sources */,
+				A2640FD623872A1E00FC7803 /* LearnViewController.swift in Sources */,
+				A2640FD423872A1600FC7803 /* HomeViewController.swift in Sources */,
 				A2640F982387275D00FC7803 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,25 +371,6 @@
 			targetProxy = A2640FB72387275E00FC7803 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		A2640F9B2387275D00FC7803 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A2640F9C2387275D00FC7803 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A2640FA32387275E00FC7803 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A2640FA42387275E00FC7803 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		A2640FBD2387275E00FC7803 /* Debug */ = {
