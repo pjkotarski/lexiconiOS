@@ -1,0 +1,6 @@
+framework module Pods_lexiconTests {
+  umbrella header "Pods-lexiconTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

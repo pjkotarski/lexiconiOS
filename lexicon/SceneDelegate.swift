@@ -8,6 +8,8 @@
 
 import UIKit
 
+
+
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
@@ -23,7 +25,15 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         window?.windowScene = windowScene
         
-        window?.rootViewController = MainTabBarController()
+        //TAKE THIS OUT OF CODE ONCE IT GOES INTO PRODUCTION
+        UserDefaults.standard.set(false, forKey: "loginStatus")
+        //TAKE THIS OUT OF CODE ONCE IT GOES INTO PRODUCTION
+        
+        if UserDefaults.standard.bool(forKey: "loginStatus") {
+            window?.rootViewController = MainTabBarController()
+        } else{
+            window?.rootViewController = MainNavController(rootViewController: LandingViewController())
+        }
         
         window?.makeKeyAndVisible()
     

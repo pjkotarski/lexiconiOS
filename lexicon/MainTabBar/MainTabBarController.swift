@@ -34,7 +34,7 @@ class MainTabBarController: UITabBarController {
         
         let accountView = MainNavController(rootViewController: AccountViewController())
         accountView.tabBarItem.image = UIImage(named : "accountGray")
-        searchView.tabBarItem.selectedImage = UIImage(named: "accountBlack")
+        accountView.tabBarItem.selectedImage = UIImage(named: "accountBlack")
         
         viewControllers = [homeView, learnView, searchView, accountView]
         
